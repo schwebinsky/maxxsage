@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.maxxsage.com"),
   title: "MAXX Sage — Sängerin, Songwriterin & Podcasterin",
   description:
     "MAXX Sage: anspruchsvolles Songwriting, reduzierte Arrangements, echte Geschichten und Musik für die Zwischentöne.",
@@ -12,9 +13,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     alternateLocale: "en_GB",
-  },
-  other: {
-    "codex-preview": "development",
   },
   icons: {
     icon: "/favicon.svg",
